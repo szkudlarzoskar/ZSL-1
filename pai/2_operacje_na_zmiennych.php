@@ -10,13 +10,13 @@ echo $x<=>$y; //jesli lewa wieksza 1 , rowne 0 , prawwa -1
 $x=1;
 $y=1.0;
 
-echo "<br>" .gettype($x); //integer
-echo "<br>" .gettype($y); //double
+echo "<br>".gettype($x); //integer
+echo "<br>".gettype($y); //double
 
 if($x == $y) {
-    echo "równe";
+    echo "<br>", "równe","<br>";
 }else {
-    echo "różne";
+    echo "różne","<br>";
 }
 
 if($x === $y) {
