@@ -62,6 +62,9 @@ iloscosobwrodzinie;
 B;
 }
 
+//dodac zaokaglenie wyniku do 2 miejsc po przecinku (number_FORMAT)
+//dodac hiperlacze wyswietlajace poczatokowy formularz (header(location))
+
 
 
 
