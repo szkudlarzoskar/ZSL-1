@@ -6,7 +6,7 @@ $x=1;
 $y=10;
 echo $x<=>$y; //jesli lewa wieksza 1 , rowne 0 , prawwa -1
 
-//równe / identyczne 
+//równe / identyczne
 $x=1;
 $y=1.0;
 
@@ -28,7 +28,7 @@ if($x === $y) {
 
 /*
 postinkrementacja $x++ dodaje 1 na koncu
-preinkrementacja ++$x dodaje 1 na poczatku 
+preinkrementacja ++$x dodaje 1 na poczatku
 postdekrementacja $x-- odejmuje 1 na kocnu
 predekrementacja --$x
 */
@@ -41,7 +41,7 @@ echo ++$x, '<br>'; //5
 
 $x=1;
 echo $x; //1
-$x=$x++; 
+$x=$x++;
 echo $x; //1
 $x=++$x;
 echo $x; //2

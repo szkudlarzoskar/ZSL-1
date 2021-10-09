@@ -7,11 +7,11 @@
  echo 'Imię: $name<br>'; //imię: $name
  echo "Imię: $name<br>"; //imię: Janusz
 
-//Konkatenacja 
+//Konkatenacja
  echo "Janusz"." Kowalski";
 
  //typy danych
- //całkowity 
+ //całkowity
  $calkowita=10;
  $bin=0b101; //5
  $oct=011; //9

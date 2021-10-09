@@ -15,7 +15,7 @@
 echo "<br>";
 require './3_1.php';
 require_once './3_1.php';
-// require './3_132.php'; //eror nic nie pokzauje po tym 
+// require './3_132.php'; //eror nic nie pokzauje po tym
     ?>
    <h3>Koniec strony </h3>
 </body>

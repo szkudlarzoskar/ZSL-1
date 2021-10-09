@@ -9,20 +9,20 @@ echo "$text<br>"; //wysiwetla zmienna w jednej lini
 echo nl2br($text); //wyswietla zmienna w cieciach
 
 $name="janUsz";
-//zamiana liter na małe 
+//zamiana liter na małe
 echo "<br>";
 echo $name = strtolower($name), "<br>";
 
-//zamiana na duze litery 
+//zamiana na duze litery
 echo $name = strtoupper($name),"<br>";
 
 $data="januSZ koWALski";
 
-//zamiana pierwsza litere na duza 
+//zamiana pierwsza litere na duza
 
 echo ucfirst($data),"<br>";
 
-//zamienia wszystkie pierwsze litery na duże 
+//zamienia wszystkie pierwsze litery na duże
 
 echo ucwords($data),"<br>";
 
@@ -35,7 +35,7 @@ echo $col;
 
 //czyszczenie zawartosci bufora
 
-ob_clean(); //czyści ekran 
+ob_clean(); //czyści ekran
 
 // usuwanie białych znaków
 $name="Janusz";
@@ -48,7 +48,7 @@ echo "Długość \$name1: ".strlen(ltrim($name1))."<br>"; //8
 echo "Długość \$name1: ".strlen(rtrim($name1))."<br>"; //7
 echo "Długość \$name1: ".strlen(trim($name1))."<br>"; //6
 
-//przeszukiwanie ciagow znakow 
+//przeszukiwanie ciagow znakow
 
 echo strstr("janusz@gmail.com","@"); // szuka @
 echo strstr("janusz@gmail.com","G"); //tylko wielkie G
@@ -56,11 +56,11 @@ echo stristr("janusz@gmail.com","G"); //wszystkie litery G
 
 //substr
 $name="Janusz";
-echo substr($name,2); //nusz 
+echo substr($name,2); //nusz
 echo substr($name,2,3 ); //nusv(od 2, 3 znaki )
 echo substr($name,-2); //sz
 echo substr($name,-2,1); //s
 
-echo substr(strstr("janusz@gmail.com","@"),1); 
+echo substr(strstr("janusz@gmail.com","@"),1);
 
 ?>
