@@ -26,7 +26,7 @@ RESULT;
 
 }else{
     echo "Wypełnij wszystkie pola";
-    
+
 }
 ?>
 </body>

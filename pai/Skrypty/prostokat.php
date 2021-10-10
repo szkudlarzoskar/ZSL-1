@@ -26,9 +26,11 @@ Pole prostokąta wynosi : $area cm<sup>2</sup><br>
 Obwód prostokątu wynosi : $circle cm
 RESULT;
 
-}else{
+}
+
+else{
     echo "Wypełnij wszystkie pola";
-    
+
 }
 ?>
 </body>

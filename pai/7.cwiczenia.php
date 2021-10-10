@@ -40,23 +40,21 @@ iloscosobwrodzinie;
 
 
      if (isset($_POST['przycisksredniwiek'])) {
+       $sumawiek=0;
        $sredniwiek=0;
 
-
-
-
        foreach ($_POST as $key => $value) {
-         echo "$key : $value  <br><br>";
-
-       if ($key != "przycisksredniwiek") {
-         $sredniwiek=$sredniwiek+$value;
-
-
+  echo "$key : $value<br>";
+       if ($key != 'przycisksredniwiek') {
+         $sumawiek=$sumawiek+$value;
+         $sredniwiek++;
 
        }
 }
+$wynik=$sumawiek/$sredniwiek;
+$wynik=number_FORMAT($wynik,2,',','');
      echo <<< B
-     średni wiek : $sredniwiek <br><br>
+     Sredni wiek : $wynik <br><br>
   <a href header("Location:7.cwiczenia.php#location")>Cofnij</a>
 
 B;

@@ -35,17 +35,19 @@
      FORMAGEPERSON;
 
     }
-    if (isset($_POST['buttonavg'])) {
-//print_r($_POST);
-$ageAVG=0;
-foreach ($_POST as $key => $value) {
-  echo "$key : $value<br>";
-  if ($key != 'buttonavg'){
-  $ageAVG=$ageAVG+$value;
-}
-}
-echo "Średni wiek :$ageAVG";
-    }
+    if (isset($_POST['buttonAVG'])) {
+            $ageAVG=0;
+            $z=0;
+            foreach ($_POST as $key => $value) {
+                if ($key != 'buttonAVG') {
+                $ageAVG=$ageAVG+$value;
+                $z++;
+                }
+            }
+            $ageAVG1=$ageAVG / $z;
+            $ageAVG1=number_format($ageAVG1,2,',','');
+            echo "Średnia: $ageAVG1";
+        }
 //dodac zaokaglenie wyniku do 2 miejsc po przecinku (number_FORMAT)
 //dodac hiperlacze wyswietlajace poczatokowy formularz (header(location))
     ?>
