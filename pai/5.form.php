@@ -1,31 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<h3>Dane użystkownika</h3>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zadanie</title>
+  </head>
+  <body>
+  <h2>  Dane o urzytkowniku </h2>
 
-<form action="5_1_data.form.php" method="">
-  <input type="text" name="name" placeholder="Podaj imię"><br><br>
-  <input type="text" name="surname" placeholder="Podaj nazwisko"><br><br>
-  <input type="color" name="color" placeholder="Podaj kolor w RGB"><br><br>
-  <input type="submit" value="Zatwierdź dane"><br><br>
-</form>
-
-<?php
-if(!empty($_GET['name'])&& !empty($_GET['surname'])&& !empty($_GET['color'])){
-
-    echo <<< E
-    Imię i nazwisko: $_GET[name]<br>  $_GET[surname]<br> $_GET[color]<br>
-    E;
-}else{
-    echo "Wypełnij wszystkie pola! <br>";
-}
-
-?>
-
-</body>
+  <form class="" action="./skryptydom/5_dane.php" method="post">
+    <input type="text" name="imie" value=""placeholder="Podaj imię"><br><br>
+    <input type="text" name="nazwisko" value="" placeholder="Podaj nazwisko"><br><br>
+    <input type="number" name="wiek" value=""placeholder="Podaj wiek"><br><br>
+    <input type="text" name="narodowosc" value="" placeholder=" Podaj Narodowość"><br><br>
+    <input type="submit" name="zatwierdz" value="Zatwierdź">
+  </form>
+  </body>
 </html>

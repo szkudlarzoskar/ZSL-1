@@ -8,7 +8,7 @@
 <body>
 <h3>Zadanie<h3>
 
-<form action="5_1_data.php" method="get"> >
+<form action="5_1_data.php" method="get"> 
 <input type="text" name="name" placeholder="Podaj imię"><br><br>
   <input type="number" name="age" placeholder="Podaj wiek"><br><br>
   <input type="text" name="nationality" placeholder="Podaj narodowość"><br><br>
